@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "modthatcrashesthegamewhenyouopenit",
+	"version": "${version}",
+	"name": "mod that crashes the game when you open it",
+	"description": "dewey inc latest innovation",
+	"authors": [
+		"dewey inc"
+	],
+	"contact": {
+		"homepage": "https://github.com/Dewey-Inc",
+		"sources": "https://github.com/Dewey-Inc/modthatcrashesthegamewhenyouopenit"
+	},
+	"license": "MIT",
+	"icon": "assets/mod-that-crashes-the-game-when-you-open-it/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"xyz.jased.ModThatCrashesTheGameWhenYouOpenIt"
+		]
+	},
+	"mixins": [],
+	"depends": {
+		"fabricloader": "*",
+		"minecraft": "*",
+		"java": ">=8"
+	}
+}
